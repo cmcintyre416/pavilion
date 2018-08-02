@@ -1,0 +1,643 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+
+/* Global */
+
+html {
+    font-size: 12px;
+}
+
+body {
+    font-size: 1rem;
+    overflow-x: hidden;
+    background: linear-gradient(90deg, rgba(153,153,203,0.92) 0%, rgba(241,135,168,0.92) 100%) ,url('../assets/pattern1.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+p, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    margin: 50px 0 10px;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+
+/* Header */
+
+header {
+    height: 100vh;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.mainNavWrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+.mainNavMenuTitle {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.innerPhotoWrapper {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bannerImage {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.headerImageWrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+.getTicketsButton {
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 2px 10px 0px #0e3c3d;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0e3c3d;
+    background-color: #86c8ca;
+    padding: 25px 50px;
+    border-radius: 15px;
+    letter-spacing: .5rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Experience */
+
+
+.experienceWrapper {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.experienceInnerWrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.experienceTitle {
+    width: 35%;
+}
+
+.experienceDescription {
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    line-height: 3rem;
+    width: 65%;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.experienceList {
+    list-style: none;
+    padding: 0;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: .3rem;
+    margin: 0;
+}
+
+.experienceListItem {
+    font-size: 3rem;
+    color: #86c8ca;
+    text-shadow: 4px 5px 0px #0e3c3d;
+}
+
+.brandContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgba(201, 200, 200, 0.589);
+    padding: 100px 0 100px 0;
+}
+
+/* Music */
+
+.innerHeadliner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.innerSupporting {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headlinerDJ {
+    width: 25%;
+}
+
+.supportingDJ {
+    width: 20%
+}
+
+.musicWrapper {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.music {
+    margin: 100px 0 100px 0;
+}
+
+/* Food */
+
+.foodTitle {
+    width: 35%;
+    margin-bottom: 50px;
+}
+
+.foodWrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foodSubTitle {
+    color: #0e3c3d;
+    font-size: 2.2rem;
+}
+
+.bulletInline {
+    color: #0e3c3d;
+    font-size: 5rem;
+    position: relative;
+    bottom: -15px;
+    right: -5px;
+}
+
+/* Tickets */
+
+.ticketOptions {
+    margin-top: 80px;
+}
+
+/* General for lower pages */
+
+.description {
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    line-height: 3rem;
+    width: 80%;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.innerTitleDescriptionWrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sectionWrapper {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+/* Menu */
+
+.navContainer .menuContainer {
+    position: fixed;
+    right: -100px;
+    top: -100px;
+    z-index: 100;
+    width: 200px;
+    height: 200px;
+    background: #86c8ca;
+    border-radius: 50% 50% 50% 50%;
+    transition: .3s ease-in-out;
+    box-shadow: 0 0 0 0 #86c8ca, 0 0 0 0 #86c8ca;
+    cursor: pointer;
+}
+
+.navContainer .hamburger {
+    position: absolute;
+    top: 135px;
+    left: 50px;
+    width: 30px;
+    height: 2px;
+    background: #000;
+    display: block;
+    transform-origin: center;
+    transition: .3s ease-in-out;
+}
+
+.navContainer .hamburger:after, .navContainer .hamburger:before {
+    transition: .3s ease-in-out;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #0e3c3d;
+}
+
+.navContainer .hamburger:before {
+    top: -10px;
+}
+
+.navContainer .hamburger:after {
+    bottom: -10px;      
+}
+
+.navContainer #hamburgerCheck {
+    display: none;
+}
+
+.navContainer #hamburgerCheck:checked + .menuContainer {
+    box-shadow: 0 0 0 100vw #86c8ca, 0 0 0 100vh #86c8ca;
+    border-radius: 0;
+}
+
+.navContainer #hamburgerCheck:checked + .menuContainer .hamburger {
+    transform: rotate(45deg);
+}
+
+.navContainer #hamburgerCheck:checked + .menuContainer .hamburger:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.navContainer #hamburgerCheck:checked + .menuContainer .hamburger:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.navContainer #hamburgerCheck:checked + .menuContainer + .burgerList {
+    opacity: 1;
+}
+
+.navContainer .burgerList {
+    z-index: 200;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .3s 0s ease-in-out;
+    list-style: none;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.navContainer .burgerLink {
+    display: block;
+    color: #0e3c3d;
+    text-decoration: none;
+    position: relative;
+}
+
+
+
+.burgerListItem {
+    margin-bottom: 80px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.hoverBrush {
+    width: 450px;
+    position: absolute;
+    top: -130px;
+    left: -65px;
+    z-index: -1;
+    opacity: 0;
+}
+
+.burgerLink:hover .hoverBrush, .burgerLink:hover {
+    opacity: 1;
+    color: white;
+}
+
+/* To be announced */
+
+.toBeAnnouncedTitle {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+
+/* Responsive--------------> */
+
+
+@media(max-width: 1280px){
+    .innerPhotoWrapper {
+        width: 70%;
+    }
+
+    .burgerList {
+        font-size: 2.2rem;
+    }
+    
+    .burgerListItem {
+        margin-top: 20px;
+        margin-bottom: 80px;
+        letter-spacing: 5px;
+        text-align: center;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    .hoverBrush {
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        top: -80px;
+        left: -65px;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .burgerList {
+        margin-top: 30px;
+    }
+}
+
+@media(max-height: 890px) {
+    .burgerListItem {
+        margin-bottom: 60px;
+    }
+
+    .sectionWrapper {
+        height: 50vh;
+    }
+}
+
+@media(max-height: 750px) {
+    .burgerList {
+        font-size: 2rem;
+    }
+
+    .burgerListItem {
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    header {
+        margin-bottom: 150px;
+    }
+}
+
+@media(max-height: 700px){
+    .burgerList {
+        font-size: 2rem;
+    }
+
+    .burgerListItem {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 700px) {
+    .hoverBrush {
+        display: none;
+    }
+
+    .innerPhotoWrapper {
+        width: 100%;
+    }
+}
+
+/* Main Responsive */
+
+@media(max-width: 1280px){
+    .wrapper {
+        width: 90%;
+    }
+    .experienceDescription {
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+        line-height: 2.5rem;
+        width: 85%;
+    }
+
+    .experienceTitle {
+        width: 45%;
+    }
+
+    .bannerImage {
+        margin-bottom: 100px;
+    }
+
+    .experienceListItem {
+        font-size: 2.5rem;
+        
+    }
+
+    .experienceList {
+        text-shadow: 2px 2px 0px #0e3c3d; 
+        width: 80%;
+    }
+
+    .sectionWrapper {
+        margin-top: 50px;
+    }
+
+    .wrapper, .experienceWrapper {
+        height: auto;
+        margin-bottom: 30px;
+    }
+ 
+}
+
+@media(max-width: 900px) {
+    .description {
+        line-height: 2.5rem;
+        width: 100%;
+    }
+    
+    .title {
+        width: 45%;
+    }
+    
+    .toBeAnnouncedTitle {
+        width: 55%;
+    }
+
+    .getTicketsButton {
+        font-size: 1.5rem;
+        font-weight: bold;
+        box-shadow: 2px 10px 0px #0e3c3d;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #0e3c3d;
+        background-color: #86c8ca;
+        padding: 25px 50px;
+        letter-spacing: .3rem;
+    }
+
+}
+
+@media(max-width: 800px){
+    .experienceTitle {
+        width: 50%;
+    }
+
+    .title {
+        width: 45%;
+    }  
+
+    .foodTitle {
+        width: 40%;
+    }
+
+    .toBeAnnouncedTitle {
+        width: 60%;
+    }
+
+    .experienceListItem {
+        font-size: 2rem;
+        text-shadow: none;
+        letter-spacing: 0rem;
+    }
+
+    .description {
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .burgerList {
+        font-size: 1.6rem;
+        margin-top: 0px;
+    }
+
+    .burgerListItem {
+        height: 40px;
+        letter-spacing: 1px;
+    }
+
+    .bannerImage {
+        margin-bottom: 100px;
+    }
+
+    .experienceListItem {
+        display: none;
+    }
+
+    .experienceWrapper {
+        height: 60vh;
+    }
+
+    .musicWrapper {
+        height: auto;
+        margin: auto;
+    }
+
+    .headlinerDJ {
+        width: 50%;
+    }
+
+    .title {
+        width: 60%;
+    }  
+
+    .foodTitle {
+        width: 50%;
+    }
+
+    .toBeAnnouncedTitle {
+        width: 70%;
+    }
+
+    .innerHeadliner {
+        margin-bottom: 50px;
+    }
+
+    .innerSupporting {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .supportingDJ {
+        width: 35%;
+        margin: 20px 0;
+    }
+
+    .brandContainer {
+        padding: 50px 0;
+    }
+
+
+    .experienceTitle {
+        width: 60%;
+    }
+}
+
+
+@media(max-width: 430px) {
+    .wrapper {
+        margin-top: 50px;
+    }
+}
+
+@media(max-height: 650px){
+    .sectionWrapper, section, .wrapper, .experienceWrapper {
+        height: auto;
+    }
+}
