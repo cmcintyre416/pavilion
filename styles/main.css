@@ -153,22 +153,31 @@ nav {
 /* Music */
 
 .innerHeadliner {
+    width: 30%;
     display: flex;
     justify-content: center;
-    margin-bottom: 150px;
+    align-items: center;
+    margin: 0 auto 100px;
 }
 
 .innerSupporting {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
-.headlinerDJ {
-    width: 25%;
+.supportingDJWrapper {
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
 }
 
 .supportingDJ {
-    width: 20%
+    width: 100%;
+}
+
+.headlinerDJ {
+    width: 100%;
 }
 
 .musicWrapper {
@@ -178,7 +187,6 @@ nav {
     align-items: center;
     justify-content: center;
 }
-
 
 .music {
     margin: 100px 0 100px 0;
@@ -212,6 +220,11 @@ nav {
     right: -5px;
 }
 
+.foodHighlightListItem {
+    list-style: none;
+    margin: 20px 0;
+}
+
 /* Tickets */
 
 .ticketOptions {
@@ -235,7 +248,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .sectionWrapper {
@@ -419,8 +432,8 @@ nav {
         margin-bottom: 60px;
     }
 
-    .sectionWrapper {
-        height: 50vh;
+    .sectionWrapper, section, .wrapper, .experienceWrapper, .musicWrapper {
+        height: auto;
     }
 }
 
@@ -457,6 +470,10 @@ nav {
 
     .innerPhotoWrapper {
         width: 100%;
+    }
+
+    .burgerLink {
+        font-size: 2rem;
     }
 }
 
@@ -557,6 +574,14 @@ nav {
         font-size: 1.5rem;
         letter-spacing: .2rem;
     }
+
+    .supportingDJWrapper {
+        width: 30%;
+    }
+
+    .innerHeadliner {
+        width: 40%;
+    }
 }
 
 @media(max-width: 600px) {
@@ -587,9 +612,6 @@ nav {
         margin: auto;
     }
 
-    .headlinerDJ {
-        width: 50%;
-    }
 
     .title {
         width: 60%;
@@ -604,18 +626,17 @@ nav {
     }
 
     .innerHeadliner {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .innerSupporting {
-        display: flex;
-        justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
+
     }
 
     .supportingDJ {
-        width: 35%;
+        width: 100%;
         margin: 20px 0;
     }
 
@@ -636,7 +657,7 @@ nav {
     }
 }
 
-@media(max-height: 650px){
+@media(max-height: 700px){
     .sectionWrapper, section, .wrapper, .experienceWrapper {
         height: auto;
     }

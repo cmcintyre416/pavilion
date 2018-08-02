@@ -10,8 +10,8 @@
 
     //make sure list is not visible on page load
 
-    function determineIfChecked(e) {
-        let checked = e.target.checked;
+    function determineIfChecked() {
+        let checked = hamburger.checked;
 
         const getTicksTop = document.getElementById('getTicksTop');
         
@@ -38,10 +38,9 @@
     menuItem.addEventListener('click', closeMenu);
 
     function closeMenu(){
-        console.log('being clicked');
         hamburger.checked = false;
 
-        // determineIfChecked();
+        determineIfChecked();
     }
 
     const ticketBottom = document.getElementById('getTicksBottom');
