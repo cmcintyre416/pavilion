@@ -220,6 +220,10 @@ nav {
     right: -5px;
 }
 
+.foodHighlightList {
+    padding: 0;
+}
+
 .foodHighlightListItem {
     list-style: none;
     margin: 20px 0;
