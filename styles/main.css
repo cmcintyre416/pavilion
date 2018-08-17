@@ -268,6 +268,134 @@ nav {
     margin-bottom: 50px;
 }
 
+/* Sponsors */
+
+.sponsorList {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.sponsorItem {
+    width: 27%;
+    display: flex; 
+    justify-content: center;
+    align-items: center
+}
+
+.sponsorImage {
+    width: 85%;
+}
+
+.stoli, .vype {
+    width: 65%;
+}
+
+.ltd {
+    width: 95%;
+}
+
+@media(max-width: 700px) {
+    .sponsorItem {
+        width: 48%;
+    }
+
+    .sponsorImage {
+        width: 85%;
+    }
+    
+    .stoli, .vype {
+        width: 65%;
+    }
+    
+    .ltd {
+        width: 95%;
+    }
+}
+
+
+/* Footer */
+footer {
+    margin-top: 100px;
+    display: flex;
+}
+
+.mapWrapper {
+    width: 50%;
+}
+
+.lyftWrapper {
+    width: 50%;
+    background-color: #ef0076;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lyftAddress, .lyftDescription, .lyftDiscountCode {
+    font-size: 1.6rem;
+}
+
+.lyftDiscountCode {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-lyft {
+    width: 100%;
+    color: white;
+    font-size: 170px;
+}
+
+.footerButtonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerButtonWrapperImage {
+    width: 25%;
+    margin: 0 10px;
+}
+
+.footerButtonWrapperImage img {
+    width: 100%;
+}
+
+@media(max-width: 700px){
+    footer {
+        flex-wrap: wrap;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    .mapWrapper {
+        width: 100%;
+    }
+    
+    .lyftWrapper {
+        width: 100%;
+    }
+
+    .fa-lyft {
+        font-size: 120px;
+    }
+}
+
 /* Menu */
 
 .navContainer .menuContainer {

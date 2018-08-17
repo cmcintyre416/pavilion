@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="https://www.universe.com/embed2.js"></script>
 </head>
 <body>
@@ -17,13 +18,6 @@
                 <span class='hamburger'></span>
             </span>
             <ul class="burgerList" id="burgerList">
-                <li class="burgerListItem">
-                    <a class="burgerLink" id="home"
-                     href='#first'>Home <img 
-                        class="hoverBrush"
-                        src="assets/brushStroke.svg" alt="">
-                    </a>
-                </li>
                 <li class="burgerListItem">
                     <a class="burgerLink"
                      href='#second'>Experience <img 
@@ -50,10 +44,16 @@
                         </a>
                 </li>
                 <li class="burgerListItem">
-                <a class="burgerLink" href='#sixth'>Get Tickets <img 
+                <a class="burgerLink" href='#sixth'>Get Tickets<img 
                     class="hoverBrush"
                     src="assets/brushStroke.svg" alt="">
                 </a>
+                </li>
+                <li class="burgerListItem">
+                    <a class="burgerLink" href='#seventh'>Sponsors<img 
+                        class="hoverBrush"
+                        src="assets/brushStroke.svg" alt="">
+                    </a>
                 </li>
             </ul>
         </label>
@@ -70,8 +70,8 @@
             <img src="assets/theExperienceAsset.png" alt="" class="experienceTitle">
             <div class="experienceDescription">
                 <p>Welcome to The Pavilion,</p>
-                <p>We’re throwing a one day festival, that we personally promise will be the best day of the summer. </p>
-               <p>The idea behind throwing this party was to give everyone something different, a way to end the summer completely carefree. It’s a Crankapalooza filled with great food + drinks, games & activities, and music spun by your favourite local DJ’s in a space you’ve never partied in before. Come out with your friends, and their friends, and have fun underneath the Brickworks Pavillion.</p>   
+                <p>We’re throwing a one day festival, that we promise will be the best day of the summer. </p>
+               <p>The idea behind throwing this party is to give everyone something different, a way to end the summer completely carefree. It’s a Crankapalooza filled with great food & drinks, games & activities, and music spun by your favourite local DJ’s in a space you’ve never partied in before. Come out with your friends, and their friends, and have fun underneath the Brickworks Pavillion.</p>   
             </div>
             <ul class="experienceList">
                 <li class="experienceListItem">Live Music</li>
@@ -86,8 +86,7 @@
                 <img src="assets/foodAndDrinkLogo.png" alt="" class="foodTitle">
                 <div class="description">
                         <p>Let’s get delicious,</p>
-                        <p>We’re bringing in the tastiest food trucks, and some surprise beverages you’ll love. Prepare to let the taste buds mingle.</p>
-                                             
+                        <p>We’re bringing in the tastiest food trucks, and some surprise beverages you’ll love. Prepare to let the taste buds mingle.</p>                   
                         <h4 class="foodSubTitle">
                             Food & Desert Highlights 
                         </h4>
@@ -103,7 +102,7 @@
                             Drink Highlights
                         </h4>
                         <ul class="foodHighlightList">
-                            <li class="foodHighlightListItem">Great beers for the lads.</li>
+                            <li class="foodHighlightListItem">Great beers.</li>
                             <li class="foodHighlightListItem">Vodka, Tequila, Rum & Whisky - The usual.</li>
                             <li class="foodHighlightListItem">New mixed drinks (grapefruit & berry smash)</li>
                             <li class="foodHighlightListItem">Free samples.</li>
@@ -165,6 +164,52 @@
                 </div>
             </div>
     </section>
+    <section class="thanksTo" id="seventh">
+        <div class="wrapper sectionWrapper">
+            <div class="innerTitleDescriptionWrapper">
+                <img src="assets/tickets.png" alt="" class="title">
+            </div>
+            <div class="sponsorContainer">
+                <ul class="sponsorList">
+                    <li class="sponsorItem"><img src="assets/stoli.png" alt="" class="sponsorImage stoli"></li>
+                    <li class="sponsorItem"><img src="assets/vlogo.png" alt="" class="sponsorImage vype"></li>
+                    <li class="sponsorItem"><img src="assets/TeamLTD-1.png" alt="" class="sponsorImage ltd"></li>
+                    <li class="sponsorItem"><img src="assets/bumble.png" alt="" class="sponsorImage"></li>
+                    <li class="sponsorItem"><img src="assets/acehill.png" alt="" class="sponsorImage"></li>
+                    <li class="sponsorItem"><img src="assets/lyft.png" alt="" class="sponsorImage"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <!-- AIzaSyCDtb5SrQ6bfkcUO3-v4b30RkE3DxxV88w -->
+        <div class="mapWrapper">
+            <iframe
+                width="100%"
+                height="500px"
+                frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCDtb5SrQ6bfkcUO3-v4b30RkE3DxxV88w
+                  &q=Evergreen+Brickworks,Toronto+ON" allowfullscreen>
+            </iframe>
+        </div>
+        <div class="lyftWrapper">
+            <div class="lyftImageWrapper">
+                <i class="fab fa-lyft"></i>
+            </div>
+            <p class="lyftAddress">550 Bayview Ave</p>
+            <p class="lyftDescription">Get $5 off your ride with lyft.</p>
+            <p class="lyftDiscountCode">TOPavilion</p>
+            <div class="footerButtonWrapper">
+                <a class="footerButtonWrapperImage" href="https://itunes.apple.com/ca/app/lyft/id529379082?mt=8" target="_blank">
+                    <img src="assets/app-store.png" alt="">
+                </a>
+                <a class="footerButtonWrapperImage" href="https://play.google.com/store/apps/details?id=me.lyft.android&hl=en_CA" target="_blank">
+                    <img src="assets/google-play-button.png" alt="">
+                </a>
+                
+            </div>
+        </div>
+    </footer>
     <script src="scripts/app.js"></script>
 </body>
 </html>
