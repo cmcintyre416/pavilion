@@ -394,6 +394,10 @@ footer {
     .fa-lyft {
         font-size: 120px;
     }
+
+    .footerButtonWrapper {
+        margin: 25px 0;
+    }
 }
 
 /* Menu */
